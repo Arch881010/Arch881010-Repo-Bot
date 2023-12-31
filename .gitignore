@@ -125,3 +125,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore hidden files
+README.md 
+README copy.md 
+Dockerfile
+CODE_OF_CONDUCT.md
+.dockerignore

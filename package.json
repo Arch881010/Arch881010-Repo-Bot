@@ -1,0 +1,34 @@
+{
+  "name": "arch881010-repo-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Probot app",
+  "author": "Arch",
+  "license": "MIT",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./bot.js",
+    "s-w": "npm start",
+    "s-linux": "sudo npx probot run ./bot.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^12.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nock": "^13.0.5",
+    "smee-client": "^1.2.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
