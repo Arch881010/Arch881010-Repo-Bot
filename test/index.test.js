@@ -7,11 +7,14 @@ const payload = require("./fixtures/issues.opened");
 const issueCreatedBody = { body: "Thanks for opening this issue!" };
 const fs = require("fs");
 const path = require("path");
+require('env').config();
 
 const privateKey = fs.readFileSync(
   path.join(__dirname, "fixtures/mock-cert.pem"),
   "utf-8"
 );
+
+
 
 describe("Arch881010-Repo-Bot", () => {
   let probot;
@@ -43,7 +46,7 @@ describe("Arch881010-Repo-Bot", () => {
       })
 
       // Test that a comment is posted
-      .post("/repos/hiimbex/testing-things/issues/1/comments", (body) => {
+      .post(`/repos/${process.env['REPO_OWNER']}/${process.env['REPO']}/issues/1/comments`, (body) => {
         expect(body).toMatchObject(issueCreatedBody);
         return true;
       })
