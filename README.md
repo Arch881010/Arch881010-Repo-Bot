@@ -8,11 +8,14 @@ See package.json and it's run scripts.
 Please review .env.example before doing anything!
 
 ```env
-#Put your bot repo here
+# Put your bot repo here
 REPO=
 
-#Put your user here/owner of the repo
+# Put your user here/owner of the repo
 REPO_OWNER=
+
+# Boolean here ([true, y, yes]/[false, n, no])
+ENABLE_EGGS=false
 ```
 
 Those two lines should make it into .env manually, in order to actually make it easier on yourself to pre-configure it ahead of time. (And if you want easter eggs to exist, otherwise it might throw a few errors depending on wha thappens)

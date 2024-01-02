@@ -126,9 +126,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Ignore hidden files
-README.md 
-README copy.md 
+# Ignore hidden files 
 Dockerfile
-CODE_OF_CONDUCT.md
 .dockerignore
