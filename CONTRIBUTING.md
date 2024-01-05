@@ -16,6 +16,8 @@ If you have suggestions for how this project could be improved, or want to repor
 
 I love PRs over than general issues. Though, if you're thinking of a large PR, I advise opening up an issue first to talk about it! Look at the links below if you're not sure how to open a PR.
 
+If you are working on something or have a reference, put it in /dev
+
 ## Submitting a pull request
 
 1. [Fork][fork] and clone the repository.
