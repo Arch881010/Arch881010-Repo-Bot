@@ -22,7 +22,7 @@
     "probot": "^13.4.5"
   },
   "devDependencies": {
-    "jest": "^30.0.3",
+    "jest": "^30.0.4",
     "nock": "^14.0.2",
     "smee-client": "^2.0.4"
   },
