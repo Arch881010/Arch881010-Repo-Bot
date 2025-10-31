@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "env": "^0.0.2",
-    "probot": "^14.0.1"
+    "probot": "^14.2.1"
   },
   "devDependencies": {
     "jest": "^30.0.4",
